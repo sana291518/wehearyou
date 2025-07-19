@@ -1,0 +1,82 @@
+/* anxiety.css */
+
+body {
+    background-color: #111;
+    color: #ddd;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.page-content {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#anxiety {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#anxiety h2 {
+    color: #ddd;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 10px;
+}
+
+#anxiety h3 {
+    color: #ddd;
+    margin-top: 20px;
+}
+
+#anxiety p, #anxiety ul {
+    margin-top: 10px;
+}
+
+#anxiety ul li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+#anxiety blockquote {
+    font-style: italic;
+    color: #aaa;
+    padding-left: 20px;
+    border-left: 2px solid #aaa;
+    margin-top: 20px;
+}

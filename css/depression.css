@@ -1,0 +1,84 @@
+/* depression.css */
+
+body {
+    background-color: #111;
+    color: #ddd;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.page-content {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#depression {
+    background-color: #444; /* Set the background color to dark grey */
+    color: #ddd; /* Set the font color to light grey */
+    padding: 20px; /* Add padding to give some space around the content */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle box shadow */
+}
+
+#depression h2 {
+    color: #ddd; /* Set the color of the heading to light grey */
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 10px;
+}
+
+#depression h3 {
+    color: #ddd; /* Set the color of the subheadings to light grey */
+    margin-top: 20px;
+}
+
+#depression p,
+#depression ul {
+    margin-top: 10px;
+}
+
+#depression ul li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+#depression blockquote {
+    font-style: italic;
+    color: #aaa; /* Set the color of the blockquote text to grey */
+    padding-left: 20px;
+    border-left: 2px solid #aaa; /* Add a grey border to the left side of the blockquote */
+    margin-top: 20px;
+}

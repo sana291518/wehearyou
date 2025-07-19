@@ -1,0 +1,141 @@
+/* difference.css */
+
+/* Styles for the difference sections */
+.difference-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #111; /* Set the background color to black */
+    color: #ddd; /* Set the font color to light grey */
+}
+
+/* Styles for the headings */
+.difference-section h2 {
+    color: #ddd; /* Set the color of the heading to light grey */
+    font-size: 24px;
+    border-bottom: 2px solid #ddd; /* Use light grey for the heading underline */
+    padding-bottom: 10px;
+}
+
+/* Styles for the comparison lists */
+.difference-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.difference-section ul li {
+    margin: 10px 0;
+    padding-left: 30px;
+    position: relative;
+}
+
+.difference-section ul li:before {
+    content: "➤";
+    position: absolute;
+    left: 0;
+    top: 4px;
+    color: #bbb; /* Use light grey for the bullet point */
+    font-size: 18px;
+}
+
+/* Unique background for each difference section */
+#difference .difference-section:nth-child(odd) {
+    background-color: #444; /* Use dark grey for odd sections */
+}
+
+#difference .difference-section:nth-child(even) {
+    background-color: #333; /* Use even darker grey for even sections */
+}
+
+/* Animation for the difference sections */
+.difference-section {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Unique styles for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Custom styles for the Venn diagram */
+.venn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+}
+
+.venn-diagram {
+    width: 200px;
+    height: 200px;
+}
+
+.venn-circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #111; /* Set the background color to black */
+    border-radius: 50%;
+    border: 2px solid #ddd; /* Use light grey for the circle border */
+}
+
+.venn-circle.circle-1 {
+    top: 50px;
+    left: 50px;
+}
+
+.venn-circle.circle-2 {
+    top: 50px;
+    right: 50px;
+}
+
+.venn-circle.circle-3 {
+    bottom: 50px;
+    left: calc(50% - 51px);
+}
+
+.venn-intersection {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #bbb; /* Use light grey for the intersection circle */
+    border-radius: 50%;
+    top: 75px;
+    left: calc(50% - 26px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #111; /* Set the font color to black */
+}
+
+/* Additional unique styles for the page content */
+#difference p {
+    line-height: 1.6;
+    color: #ddd; /* Set the font color to light grey */
+}
+
+#difference p:first-of-type {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#difference p:last-of-type {
+    font-style: italic;
+    color: #bbb; /* Use light grey for the italic text */
+}

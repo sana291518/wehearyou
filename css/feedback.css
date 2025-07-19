@@ -1,0 +1,47 @@
+/* Styles for the header and navigation */
+/* Add your styles for header and navigation here */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.page-content {
+    margin-bottom: 40px;
+}
+
+/* Styles for the feedback form */
+#feedbackForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#feedbackForm label,
+#feedbackForm input,
+#feedbackForm textarea,
+#feedbackForm select,
+#feedbackForm button {
+    margin-bottom: 10px;
+}
+
+#feedbackForm textarea {
+    height: 150px;
+}
+
+/* Styles for the feedback list */
+#feedbackList {
+    margin-top: 20px;
+}
+
+.feedback-entry {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+}
+
+/* Styles for the footer */
+/* Add your styles for the footer here */

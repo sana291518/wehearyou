@@ -1,0 +1,167 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, blockquote, nav, header, footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff8c00; /* Change the link color on hover */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.page-content {
+    margin-bottom: 40px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #ff8c00; /* Orange color for the quote */
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #444;
+    padding: 10px;
+    color: #aaa;
+    border-left: 4px solid #ff8c00; /* Orange left border for quotes */
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Unique styles for the home page */
+#home {
+    background-color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#home h2 {
+    color: #ff8c00; /* Orange color for headings */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#home ul {
+    color: #fff; /* White color for lists on the home page */
+}
+
+#home ul li:before {
+    content: "\2022"; /* Style bullet points as small circles */
+    font-size: 1.2rem;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+#home blockquote {
+    background-color: #222; /* Dark background color for blockquote on home page */
+}
+
+/* Unique styles for the about page */
+#about {
+    background-color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#about h2 {
+    color: #ff8c00; /* Orange color for headings on the about page */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    color: #fff; /* White color for paragraphs on the about page */
+}
+
+/* Unique styles for the difference page */
+#difference {
+    background-color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#difference h2 {
+    color: #ff8c00; /* Orange color for headings on the difference page */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#difference p {
+    color: #fff; /* White color for paragraphs on the difference page */
+}
+
+/* Unique styles for the types page */
+#types {
+    background-color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#types h2 {
+    color: #ff8c00; /* Orange color for headings on the types page */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#types p {
+    color: #fff; /* White color for paragraphs on the types page */
+}
